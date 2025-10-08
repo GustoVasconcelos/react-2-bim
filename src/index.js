@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import BemVindo from './BemVindo';
-import Texto from "./Texto"
-//import App from './App';
+import Semana01 from './Semana01';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    //<App />
     <>
-      <BemVindo />
-      <Texto />
+      <Semana01/>
     </>
 );
