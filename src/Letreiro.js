@@ -1,8 +1,8 @@
 export default function Letreiro() {
   return (
     <>
-        <h2>Atividade 2</h2>
-        <h2 id="letreiro"></h2>
+        <h3>Atividade 2</h3>
+        <p id="letreiro"></p>
     </>
   );
 }
