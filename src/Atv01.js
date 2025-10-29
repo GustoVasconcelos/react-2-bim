@@ -1,6 +1,6 @@
 import Relogio from "./Relogio";
 import Letreiro from "./Letreiro";
-import { Link } from "react-router-dom";
+import BtnVoltar from "./components/BtnVoltar";
 
 export default function Atv01() {
     return(
@@ -8,7 +8,7 @@ export default function Atv01() {
             <h1>Atividades da Semana 1</h1>
             <Relogio />
             <Letreiro />
-            <Link to="/">Voltar</Link>
+            <BtnVoltar />
         </>
     );
 }

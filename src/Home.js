@@ -8,10 +8,10 @@ const Home = ()=>{
             <nav>
                 <ul>
                     <li>
-                        <Link to="Atv01">Atividade 1</Link>
+                        <Link className="btn btn-primary mt-1" to="Atv01">Atividade 1</Link>
                     </li>
                     <li>
-                        <Link to="Atv02">Atividade 2</Link>
+                        <Link className="btn btn-primary mt-1" to="Atv02">Atividade 2</Link>
                     </li>
                 </ul>
             </nav>
