@@ -1,0 +1,58 @@
+.contador-wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contador-container {
+    width: 400px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contador-central {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #0dcaf0;
+    border-radius: 0.375rem;
+}
+
+.contador-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contador-total-badge {
+    width: 80px;
+    align-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.btn-contador {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.btn-contador.mais {
+    padding: 8px 16px;
+    background-color: green;
+}
+
+.btn-contador.menos {
+    background-color: red;
+    padding: 8px 18px;
+    margin-left: 0.5rem;
+}

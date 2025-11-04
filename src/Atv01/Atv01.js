@@ -1,6 +1,6 @@
 import Relogio from "./Relogio";
 import Letreiro from "./Letreiro";
-import BtnVoltar from "./components/BtnVoltar";
+import BtnVoltar from "../components/BtnVoltar";
 
 export default function Atv01() {
     return(
