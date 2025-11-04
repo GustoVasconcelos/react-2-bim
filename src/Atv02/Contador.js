@@ -21,7 +21,7 @@ export default function Contador() {
     };
 
     return (
-        <div className="contador-wrapper mt-5">
+        <div className="contador-wrapper mt-3">
             <div className="contador-container mb-3">
                 <div className="contador-central">
                     
