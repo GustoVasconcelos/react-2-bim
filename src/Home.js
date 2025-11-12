@@ -8,10 +8,13 @@ const Home = ()=>{
             <nav className="text-center">
                 <ul className="list-unstyled">
                     <li>
-                        <Link className="btn btn-secondary mt-1" to="Atv01">Atividade 1</Link>
+                        <Link className="btn btn-secondary mt-1" to="Atv01">Semana 1</Link>
                     </li>
                     <li>
-                        <Link className="btn btn-secondary mt-1" to="Atv02">Atividade 2</Link>
+                        <Link className="btn btn-secondary mt-1" to="Atv02">Semana 2</Link>
+                    </li>
+                    <li>
+                        <Link className="btn btn-secondary mt-1" to="Atv03">Semana 3</Link>
                     </li>
                 </ul>
             </nav>
