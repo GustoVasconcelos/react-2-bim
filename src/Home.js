@@ -16,6 +16,9 @@ const Home = ()=>{
                     <li>
                         <Link className="btn btn-secondary mt-1" to="Atv03">Semana 3</Link>
                     </li>
+                    <li>
+                        <Link className="btn btn-secondary mt-1" to="Atv04">Semana 4</Link>
+                    </li>
                 </ul>
             </nav>
         </>
