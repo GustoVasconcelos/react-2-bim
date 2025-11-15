@@ -16,6 +16,22 @@ import Atividade16 from "./Atv03/1.6/1.6";
 import Atividade17 from "./Atv03/1.7/1.7";
 import Atividade18 from "./Atv03/1.8/1.8";
 
+// Rotas das atividades da semana4
+import Toolbar from "./Atv04/components/Toolbar";
+import Gallery from "./Atv04/components/Gallery";
+import Counter from "./Atv04/components/Counter";
+import Form from "./Atv04/components/Form";
+import MovingDot from "./Atv04/components/MovingDot";
+import Form2 from "./Atv04/components/Form2";
+import Form3 from "./Atv04/components/Form3";
+import List from "./Atv04/components/List";
+import List2 from "./Atv04/components/List2";
+import ShapeEditor from "./Atv04/components/ShapeEditor";
+import CounterList from "./Atv04/components/CounterList";
+import List3 from "./Atv04/components/List3";
+import List4 from "./Atv04/components/List4";
+import BucketList from "./Atv04/components/BucketList";
+
 export default function MinhasRotas() {
     return(
         <BrowserRouter>
@@ -34,6 +50,21 @@ export default function MinhasRotas() {
                 <Route path="/Atv03/1.6" element={<Atividade16 />} />
                 <Route path="/Atv03/1.7" element={<Atividade17 />} />
                 <Route path="/Atv03/1.8" element={<Atividade18 />} />
+
+                <Route path="/Atv04/Toolbar" element={<Toolbar />} />
+                <Route path="/Atv04/Gallery" element={<Gallery />} />
+                <Route path="/Atv04/Counter" element={<Counter />} />
+                <Route path="/Atv04/Form" element={<Form />} />
+                <Route path="/Atv04/MovingDot" element={<MovingDot />} />
+                <Route path="/Atv04/Form2" element={<Form2 />} />
+                <Route path="/Atv04/Form3" element={<Form3 />} />
+                <Route path="/Atv04/List" element={<List />} />
+                <Route path="/Atv04/List2" element={<List2 />} />
+                <Route path="/Atv04/ShapeEditor" element={<ShapeEditor />} />
+                <Route path="/Atv04/CounterList" element={<CounterList />} />
+                <Route path="/Atv04/List3" element={<List3 />} />
+                <Route path="/Atv04/List4" element={<List4 />} />
+                <Route path="/Atv04/BucketList" element={<BucketList />} />
             </Routes>
         </BrowserRouter>
     );

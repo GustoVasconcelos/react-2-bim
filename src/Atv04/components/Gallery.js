@@ -1,13 +1,23 @@
 import { useState } from "react";
 import { sculptureList } from "../data";
+import { BtnVoltarAtv04 } from "../../components/BtnVoltar";
 
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
     const [showMore, setShowMore] = useState(false);
 
+    // verifica se há dados antes de tudo
+    const hasSculptures = sculptureList && sculptureList.length > 0;
+    // senao tiver dados, retorna mensagem de "Sem dados"
+    if (!hasSculptures) return <p>Sem dados.</p>;
+
     function handleNextClick() {
-        setIndex(index + 1);
+        if (index < sculptureList.length - 1) {
+            setIndex(index + 1);
+        } else {
+            setIndex(0);
+        }
     }
 
     function handleMoreClick() {
@@ -45,6 +55,7 @@ export default function Gallery() {
             />
             </p>
         </div>
+        <BtnVoltarAtv04 />
         </>
     );
 }
